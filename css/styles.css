@@ -1,0 +1,114 @@
+body {
+  text-align: center;
+  background-image: url(../images/shiny_overlay.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+  color: #46466E;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #46466E;
+}
+
+a:hover {
+  color: #61A4BC;
+}
+
+button {
+  width: 8%;
+  margin: 1% 1% 0 0;
+}
+
+.brief {
+  color: #46466E;
+  padding: 1%;
+}
+
+#heading {
+  text-align: left;
+  color: #F7E2E2;
+  padding: 2% 17%;
+}
+
+.navbar {
+  padding-bottom: 5%;
+  font-family: 'Merriweather', serif;
+}
+
+.profile_pic {
+  width: 15%;
+  border-radius: 3rem;
+  margin-bottom: 3%;
+  margin-right: 1%;
+  float: left;
+}
+
+.intro {
+  width: 90%;
+  padding-top: 1%;
+  line-height: 1.8;
+}
+
+#projects {
+  color: #1A132F;
+  background-image: url(../images/overlay.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project_pics {
+  width: 40%;
+  border-radius: 3rem;
+  height: 28rem;
+}
+
+.sub_heading {
+  padding-top: 1%;
+}
+
+#footer {
+  padding: 2% 17%;
+}
+
+.bi {
+  padding: 1% 2%;
+  color: #ffff;
+}
+
+.bi:hover {
+  color: #61A4BC;
+}
+
+@media (max-width: 1150px) {
+  #heading {
+    text-align:center;
+  }
+
+  .project_pics {
+    width: 100%;
+    border-radius: 3rem;
+    height: 28rem;
+  }
+  button {
+    width: auto;
+    margin: 1% 1% 0 0;
+  }
+  .profile_pic {
+    width: 40%;
+    float:none;
+    margin: 0;
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+
+  }
+}
